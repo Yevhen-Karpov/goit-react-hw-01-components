@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+/* =========================== FriendList  ===================================== */
+.online {
+  margin-right: 16px;
+  color: green;
+}
+.offline {
+  margin-right: 16px;
+  color: red;
+}
+.item {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 24px;
+  padding: 8px 16px;
+}
+.avatar {
+  margin-right: 24px;
+}
+.name {
+  font-size: 24px;
+  font-weight: 500;
+}
