@@ -1,3 +1,5 @@
+@import-normalize;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -14,29 +16,14 @@ code {
 ul,
 ol {
   list-style: none;
+  padding: 0;
 }
-
-/* =========================== FriendList  ===================================== */
-.online {
-  margin-right: 16px;
-  color: green;
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
-.offline {
-  margin-right: 16px;
-  color: red;
-}
-.item {
-  width: 300px;
+/* .container {
   display: flex;
-  align-items: center;
-  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.08);
-  margin-bottom: 24px;
-  padding: 8px 16px;
-}
-.avatar {
-  margin-right: 24px;
-}
-.name {
-  font-size: 24px;
-  font-weight: 500;
-}
+} */
+/* =========================== FriendList  ===================================== */

@@ -1,0 +1,23 @@
+.transaction__history {
+  border: 1px solid #eee;
+  table-layout: fixed;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.transaction__history th {
+  font-weight: bold;
+  padding: 5px;
+  background: #efefef;
+  border: 1px solid #dddddd;
+}
+.transaction__history td {
+  padding: 5px 10px;
+  border: 1px solid #eee;
+  text-align: left;
+}
+.transaction__history tbody tr:nth-child(odd) {
+  background: #fff;
+}
+.transaction__history tbody tr:nth-child(even) {
+  background: #f7f7f7;
+}
