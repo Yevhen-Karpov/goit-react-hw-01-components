@@ -7,7 +7,7 @@ export default function StatisticsItem({label, percentage}) {
     <div>
       <li className={styles.item}>
         <span className={styles.label}>{label}</span>
-      <span className={styles.percentage}>{percentage}</span>
+      <span className={styles.percentage}>{percentage}%</span>
       </li>
     </div>
   );
